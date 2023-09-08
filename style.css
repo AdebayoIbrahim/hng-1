@@ -45,7 +45,8 @@ section {
 
 .flex-container {
   justify-content: center;
-    gap: 1rem
+    gap: 1rem;
+  text-align: center;
 }
 }
 .text-content {
