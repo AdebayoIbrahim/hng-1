@@ -60,6 +60,12 @@ section {
   color: var(--links-col);
   font-size: var(--logo-size);
 }
+#Date,
+#milliseconds {
+  font-weight: 650;
+  font-size: calc(var(--logo-size) + 0rem);
+  color: var(--links-col);
+}
 .text-styled h3 {
   font-size: calc(var(--logo-size));
   color: var(--links-col);
