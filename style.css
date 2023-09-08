@@ -27,7 +27,7 @@ section {
   /* padding-bottom: 2rem; */
 }
 .hero-section {
-  padding-top: 15rem;
+  padding-top: 10rem;
   animation: LoadCes 4s forwards ease-in-out;
 }
 
@@ -43,8 +43,7 @@ section {
 .flex-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  flex-wrap: wrap-reverse;
+  /* flex-wrap: wrap-reverse; */
 }
 .text-content {
   max-width: 65ch;
@@ -56,6 +55,10 @@ section {
   color: var(--white-col);
   font-weight: 650;
   font-size: calc(var(--logo-size) + 0.5rem);
+}
+#name {
+  color: var(--links-col);
+  font-size: var(--logo-size);
 }
 .text-styled h3 {
   font-size: calc(var(--logo-size));
@@ -132,19 +135,6 @@ span {
   animation: ripple 1s ease-in-out;
   pointer-events: none;
 }
-.img-container {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background: transparent;
-  border-right: 2px solid var(--links-col);
-  border-left: 2px solid var(--links-col);
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  box-shadow: 0 0 2px var(--links-col);
-  animation: rotate 4s ease infinite;
-  animation-direction: alternate-reverse;
-}
 .red {
   color: white;
 }
@@ -158,6 +148,7 @@ span {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  border: 2px solid var(--links-col);
   object-fit: cover;
 }
 
