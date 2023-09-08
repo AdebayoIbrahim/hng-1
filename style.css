@@ -5,10 +5,6 @@
   --thumb-hov: rgba(255, 20, 189, 0.8);
   --logo-size: 2rem;
   --hov-bg: hsl(323, 21%, 16%);
-  --step1: rgb(0 0 0 / 0);
-  --step2: rgb(0 0 0 / 0.3) 20%;
-  --stepshow: rgb(0 0 0 /0.7) 20%;
-  --step3: rgb(0, 0, 0);
 }
 *,
 :is(::before, ::after) {
