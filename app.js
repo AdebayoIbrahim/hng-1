@@ -13,3 +13,11 @@ const dateArray = [
   "Friday",
   "Saturday"
 ] 
+
+const getDay = dateArray[new Date.getDay()]
+//console.log(getDay)
+//set output to date value
+date.textContent = `${getDay}`
+
+//milliseconds day format
+milliseconds.textContent = `${Date.now()}`
