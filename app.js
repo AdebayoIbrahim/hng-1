@@ -14,10 +14,10 @@ const dateArray = [
   "Saturday"
 ] 
 
-const getDay = dateArray[new Date.getDay()]
+const getDay = dateArray[new Date().getDay()]
 //console.log(getDay)
 //set output to date value
 date.textContent = `${getDay}`
 
 //milliseconds day format
-milliseconds.textContent = `${Date.now()}`
+milliseconds.textContent = `${Date.now()ms}`
