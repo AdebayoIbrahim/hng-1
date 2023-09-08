@@ -69,30 +69,18 @@ section {
 .text-styled h3 {
   font-size: calc(var(--logo-size));
   color: var(--links-col);
-  position: relative;
-  padding-top: 1em;
-  margin-bottom: 5px;
 }
 
-/* animating text */
-.hero-content h3::before {
-  position: absolute;
-  content: "Frontend Developer";
-  left: 0;
-  top: 50%;
-  transform: translate(0, -50%);
-  animation: fillcontent 3s ease-in-out infinite;
-  animation-direction: alternate-reverse;
-}
+
 .action-btn {
   margin-top: 20px;
   padding-block: 1em;
 }
-.social-links {
+.dates {
   margin-top: 20px;
   padding-block: 1em;
 }
-.social-links .flex-btn {
+.dates .flex-btn {
   display: flex;
   gap: 0.8rem;
 }
@@ -119,8 +107,8 @@ section {
 .flex-btn a:hover i {
   transform: scale(1.13);
 }
-.action-btn .resume,
-.resume {
+.action-btn .repos,
+.repos {
   display: inline-block;
   padding: 0.5em 30px;
   text-align: center;
