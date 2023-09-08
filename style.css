@@ -41,6 +41,13 @@ section {
   justify-content: space-between;
   flex-wrap: wrap-reverse;
 }
+@media-only screen and (max-width: 890px) {
+
+.flex-container {
+  justify-content: center;
+    gap: 1rem
+}
+}
 .text-content {
   max-width: 65ch;
 }
