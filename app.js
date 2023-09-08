@@ -20,4 +20,4 @@ const getDay = dateArray[new Date().getDay()]
 date.textContent = `${getDay}`
 
 //milliseconds day format
-milliseconds.textContent = `${Date.now()ms}`
+milliseconds.textContent = `${Date.now()}ms`
