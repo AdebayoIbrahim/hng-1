@@ -60,12 +60,6 @@ body {
   font-size: calc(var(--logo-size));
   color: var(--links-col);
 }
-
-
-.action-btn {
-  margin-top: 20px;
-  padding-block: 1em;
-}
 .dates {
   text-align: center;
 }
