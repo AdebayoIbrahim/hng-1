@@ -23,7 +23,7 @@ body {
    align-items: center;
  flex-direction: column;
    min-height: 100vh;
-  gap: 2.4rem;
+  gap: 1.2rem;
 }
 
 @keyframes LoadCes {
@@ -67,13 +67,12 @@ body {
   padding-block: 1em;
 }
 .dates {
-  margin-top: 20px;
-  padding-block: 1em;
+  text-align: center;
 }
 .dates .flex-btn {
   display: flex;
 flex-direction: column;
-  gap: 0.8rem;
+  gap: 0.9rem;
 }
 
 .action-btn .repos,
