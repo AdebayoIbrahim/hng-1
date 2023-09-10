@@ -23,7 +23,8 @@ body {
    align-items: center;
  flex-direction: column;
    min-height: 100vh;
-  gap: 1.2rem;
+  gap: 1.6rem;
+animation: LoadCes 2s forwards;
 }
 
 @keyframes LoadCes {
@@ -35,9 +36,6 @@ body {
   }
 }
 
-.text-content {
-  max-width: 65ch;
-}
 .text-content p {
   color: var(--white-col);
 }
@@ -62,11 +60,6 @@ body {
 }
 .dates {
   text-align: center;
-}
-.dates .flex-btn {
-  display: flex;
-flex-direction: column;
-  gap: 0.9rem;
 }
 
 .action-btn .repos,
